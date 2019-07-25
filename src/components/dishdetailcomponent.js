@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { Card, CardImg, CardText, CardBody, CardTitle } from 'reactstrap';
 
-class DishDetail extends Component {
+export class DishDetail extends Component {
 
     // eslint-disable-next-line no-useless-constructor
     constructor(props) {
@@ -26,7 +26,7 @@ class DishDetail extends Component {
                 <li key={comment.id} >
                     {comment.comment}
                     <br /><br />
-                    -- {comment.author}, {comment.date}
+                    -- {comment.author}, {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit'}).format(new Date(Date.parse(comment.date)))}
                     <br /><br />
                 </li>
             );

@@ -2,7 +2,7 @@ export const LEADERS = [
     {
         id: 0,
         name: 'Peter Pan',
-        image: '/assets/images/20170127_195548-2.jpg',
+        image: 'assets/images/20170127_195548-2.jpg',
         designation: 'Chief Epicurious Officer',
         abbr: 'CEO',
         featured: false,
@@ -11,7 +11,7 @@ export const LEADERS = [
     {
         id: 1,
         name: 'Dhanasekaran Witherspoon',
-        image: '/assets/images/20170127_195548-2.jpg',
+        image: 'assets/images/20170127_195548-2.jpg',
         designation: 'Chief Food Officer',
         abbr: 'CFO',
         featured: false,
@@ -20,7 +20,7 @@ export const LEADERS = [
     {
         id: 2,
         name: 'Agumbe Tang',
-        image: '/assets/images/20170127_195548-2.jpg',
+        image: 'assets/images/20170127_195548-2.jpg',
         designation: 'Chief Taste Officer',
         abbr: 'CTO',
         featured: false,
@@ -29,7 +29,7 @@ export const LEADERS = [
     {
         id: 3,
         name: 'Mateus Rocha Pinto',
-        image: '/assets/images/20170127_195548-2.jpg',
+        image: 'assets/images/20170127_195548-2.jpg',
         designation: 'Executive Chef',
         abbr: 'EC',
         featured: true,

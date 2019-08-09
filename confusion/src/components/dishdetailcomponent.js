@@ -15,12 +15,12 @@ function RenderDish({ dish }) {
 }
 
 function RenderComment({ comments }) {
-    var commentList = comments.map(comment => {
+    var commentList = comments.map((comment) => {
         return (
             <Card>
             <CardBody>
                 <CardText>
-                    <li key={ comment.id }>
+                    <li key={ comment }>
                         { comment.comment }
                             <br /><br />
                             -- { comment.author }, {new Intl.DateTimeFormat('en-US', { year: 'numeric', month: 'short', day: '2-digit' }).format(new Date(Date.parse(comment.date)))}

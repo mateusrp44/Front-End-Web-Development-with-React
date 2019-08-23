@@ -19,6 +19,7 @@
     "react-router-dom": "^5.0.1",
     "react-scripts": "3.0.1",
     "react-stagger": "^1.0.1",
+    "react-transition-group": "^4.2.2",
     "reactstrap": "^8.0.1",
     "redux": "^4.0.4",
     "redux-logger": "^3.0.6",

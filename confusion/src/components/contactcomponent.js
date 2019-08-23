@@ -71,7 +71,7 @@ class Contact extends Component {
                                 <Label htmlFor="firstname" md={2}>First Name</Label>
                                 <Col md={10}>
                                     <Control.text model=".firstname" id="firstname" name="firstname"
-                                        placeholder="Your primary name"
+                                        placeholder="Your given name"
                                         className="form-control"
                                         validators={{
                                             required, minLength: minLength(3), maxLength: maxLength(15)

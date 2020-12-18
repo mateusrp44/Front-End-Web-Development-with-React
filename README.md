@@ -1,3 +1,3 @@
 # Front-End-Web-Development-with-React
 
-O repositório faz parte do curso de sobre React/Redux.
+O repositório faz parte do curso sobre React/Redux.
